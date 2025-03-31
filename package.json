@@ -2,7 +2,6 @@
     "name": "flancraft-stats-bot",
     "version": "1.0.0",
     "main": "stats-pusher.js",
-    "type": "module",
     "dependencies": {
         "firebase": "^10.14.0",
         "flancraft-stats-bot": "file:",

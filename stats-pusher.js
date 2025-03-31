@@ -1,7 +1,7 @@
-import fetch from 'node-fetch';
-import { initializeApp } from 'firebase/app';
-import { getDatabase, ref, push } from 'firebase/database';
-import config from './firebaseConfig.json' assert { type: "json" };
+const fetch = require('node-fetch');
+const { initializeApp } = require('firebase/app');
+const { getDatabase, ref, push } = require('firebase/database');
+const config = require('./firebaseConfig.json');
 
 const app = initializeApp(config);
 const database = getDatabase(app);
